@@ -121,16 +121,17 @@ div.icon:hover {
         margin: auto;
         height: 42.5rem;
 
-        .contai-img:hover img{
+        .contai-img:hover img {
             transform: scale(1.1);
             transition: 0.5s;
         }
+
         .contai-img {
             width: 24%;
             margin: 15px;
             overflow: hidden;
             border-radius: 7px;
-            
+
 
             img {
                 width: 100%;
@@ -164,20 +165,23 @@ div.icon:hover {
     color: #8e4e04;
     padding-top: 67px;
 
-    h2, h3{
+    h2,
+    h3 {
         font-weight: 600;
     }
 
     .img-ss3 {
-        width: 80%;;
+        width: 80%;
+        ;
         display: flex;
         margin: auto;
-        .component-ss3:hover{
+
+        .component-ss3:hover {
             transform: scale(1.05);
-            transition:0.5s;
+            transition: 0.5s;
         }
 
-        .component-ss3{
+        .component-ss3 {
             width: 32%;
             margin: 25px;
             text-align: left;
@@ -185,70 +189,93 @@ div.icon:hover {
             color: black;
             transition: 0.4s;
 
-            .text-ss3{
+            .text-ss3 {
                 padding: 18px;
                 font-family: 'Courier New', Courier, monospace;
                 font-size: 13px;
-                h2{
+
+                h2 {
                     margin-top: 22px;
                 }
-                h3{
+
+                h3 {
                     margin-bottom: 66px;
-    
+
                 }
-                p{
+
+                p {
                     color: gray;
                     margin-top: 10px;
                 }
-                b{
+
+                b {
                     color: rgb(0, 180, 240);
                 }
-                strong{
+
+                strong {
                     font-size: 19px;
                 }
 
             }
-            img{
+
+            img {
                 width: 100%;
                 height: 245px;
             }
-            
-            
+
+
         }
     }
 }
 
-.session-3{
+.session-3 {
     padding-top: 50px;
 
-    h2, h3{
+    h2,
+    h3 {
         text-align: center;
     }
-    h3{
+
+    h3 {
         color: rgb(104, 104, 104);
         margin-bottom: 40px;
     }
 
-    .thuVienAnh{
+    .thuVienAnh {
         width: 70%;
         margin: auto;
-        
-        
-        .row{
+
+
+        .row {
             display: flex;
-            img{
+            max-width: 100%;
+
+            img:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+
+            div {
                 width: 23%;
                 height: 300px;
                 margin: 15px 10px;
                 border-radius: 5px;
                 padding: 0;
+                overflow: hidden;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: 0.5s;
             }
         }
-        
+
     }
+
 }
 
-.session-4{
+.session-4 {
     height: 550px;
     background-image: url(../img/banner-1.jpg);
     background-position: center;
@@ -256,19 +283,19 @@ div.icon:hover {
     background-size: cover;
     display: flex;
     margin-top: 50px;
-    
 
-    .ss4_cpn{
+
+    .ss4_cpn {
         width: 50%;
         /* height: 550px; */
         text-align: center;
         color: #fff;
         margin-left: 206px;
 
-        
 
-        .btn-ss4{
-            button{
+
+        .btn-ss4 {
+            button {
                 padding: 10px;
                 margin: 10px;
                 border: none;
@@ -276,10 +303,12 @@ div.icon:hover {
                 font-size: 17px;
                 color: #fff;
             }
-            .datngay{
+
+            .datngay {
                 background-color: #0984e3;
             }
-            .chiTiet{
+
+            .chiTiet {
                 background-color: #44bd32;
             }
         }
