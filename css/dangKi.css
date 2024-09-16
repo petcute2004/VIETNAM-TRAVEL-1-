@@ -1,0 +1,102 @@
+.register {
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    border-top: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
+
+    .container-form {
+        margin: 60px 0;
+        
+
+        div {
+            width: 60%;
+            margin: 20px auto;
+
+            p {
+                color: #5c5c5c;
+                font-size: 16px;
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+            }
+
+            input {
+                width: 100%;
+                padding: 15px 20px;
+                border: 2px solid #bfbdbd;
+            }
+            strong {
+                display: block;
+                width: 100%;
+                text-align: center;
+
+                a {
+                    color: #ff6348;
+                    font-size: 15px;
+                    font-family: "Poppins", sans-serif;
+                    width: 100%;
+                    font-weight: 500;
+                }
+
+            }
+
+            hr {
+                width: 80%;
+                margin: auto;
+                border-width: 2px;
+                margin-top: 70px;
+                color: black;
+
+            }
+            button {
+                width: 100%;
+                margin: auto;
+                padding: 11px;
+                border: none;
+                background-color: #ff6348;
+                color: white;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 4px;
+            }
+
+            select{
+                width: 100%;
+                padding: 15px 20px;
+                border: 2px solid #bfbdbd;
+            }
+            
+        }
+        .cl2{
+            display: flex;
+            justify-content: space-between;
+
+            div{
+                width: 29%;
+                margin: 20px 0px;
+            }
+
+            .gender{ 
+
+                label{
+                    display: inline-flex;
+                    align-items: center;
+                    margin: 10px 5px;
+                    input{
+                        margin: 0 5px;
+                    }
+                }
+            }
+            select, input[type="date"]{
+                padding: 15px;
+                height: 47px;
+            }
+            
+            
+        }
+        
+
+    }
+
+}
+
