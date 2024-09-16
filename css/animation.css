@@ -27,3 +27,7 @@
 .h2-banner {
     animation: toLeftFromRight 2s 0.2s;
 }
+
+.icon {
+    animation: display 2s;
+}

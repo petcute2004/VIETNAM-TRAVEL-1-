@@ -102,6 +102,12 @@ div.icon:hover {
     margin-top: 30px;
     background-color: #fff;
     padding-top: 50px;
+    margin-top: -47px;
+    padding-bottom: 47px;
+
+    h2 {
+        margin-top: 80px;
+    }
 
     /* box-shadow: 0 -1px 20px lightsalmon; */
     hr {
@@ -153,14 +159,22 @@ div.icon:hover {
 
 }
 
+body {
+    background-image: url(../img/bannar-ss2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .session-2 {
     width: 100%;
     height: 800px;
     margin-top: 70px;
-    background-image: url(../img/bannar-ss2.jpg);
+    /* background-image: url(../img/bannar-ss2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     text-align: center;
     color: #8e4e04;
     padding-top: 67px;
@@ -230,6 +244,8 @@ div.icon:hover {
 
 .session-3 {
     padding-top: 50px;
+    background-color: #fff;
+    padding-bottom: 52px;
 
     h2,
     h3 {
@@ -282,8 +298,6 @@ div.icon:hover {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    margin-top: 50px;
-
 
     .ss4_cpn {
         width: 50%;
@@ -306,6 +320,11 @@ div.icon:hover {
 
             .datngay {
                 background-color: #0984e3;
+            }
+
+            .datngay:hover,
+            .chiTiet:hover {
+                background-color: #ff6348;
             }
 
             .chiTiet {
