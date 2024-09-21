@@ -57,10 +57,10 @@
             margin-top: 0;
             margin-bottom: 20px;
             font-size: 17px;
-            
+
         }
 
-        a{
+        a {
             color: #ff6348;
             font-size: 17px;
         }
@@ -97,6 +97,33 @@
     }
 } */
 
-iframe{
+iframe {
     width: 100%;
+}
+
+.btn-block {
+    width: 100%;
+    margin: auto;
+    padding: 11px;
+    border: none;
+    background-color: #ff6348;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+
+    background-color: #ff6348
+}
+
+.flay {
+    border: none;
+    height: 5px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.text-center {
+    font-weight: 600;
+    color: rgba(81, 81, 81, 0.832);
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
